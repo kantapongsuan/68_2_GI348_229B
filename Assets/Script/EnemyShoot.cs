@@ -15,25 +15,21 @@ public class EnemyShoot : MonoBehaviour
     {
         float distance = Vector3.Distance(transform.position, player.position);
 
-        // 👉 1. เช็คระยะก่อน
-        if (distance <= range)
-            {
-                // 👉 2. หันไปหาผู้เล่น
-                RotateToPlayer();
-
-                // 👉 3. ยิงตามเวลา
-                HandleShooting();
-            }
+        if (distance <= range && CanSeePlayer())
+        {
+            RotateToPlayer();
+            HandleShooting();
+        }
     }
 
     void RotateToPlayer()
     {
-        Vector3 direction = player.position - transform.position;
-        direction.y = 0;
+        Vector3 dir = player.position - transform.position;
+        dir.y = 0;
 
-        if (direction != Vector3.zero)
+        if (dir != Vector3.zero)
         {
-            Quaternion rot = Quaternion.LookRotation(direction);
+            Quaternion rot = Quaternion.LookRotation(dir);
             transform.rotation = Quaternion.Slerp(transform.rotation, rot, 5f * Time.deltaTime);
         }
     }
@@ -49,9 +45,23 @@ public class EnemyShoot : MonoBehaviour
 
     void Shoot()
     {
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
 
         Vector3 dir = player.position - firePoint.position;
         bullet.GetComponent<Bullet>().SetDirection(dir);
+    }
+
+    bool CanSeePlayer()
+    {
+        Vector3 dir = (player.position - firePoint.position).normalized;
+
+        RaycastHit hit;
+        if (Physics.Raycast(firePoint.position, dir, out hit, range))
+        {
+            if (hit.transform == player)
+                return true;
+        }
+
+        return false;
     }
 }
