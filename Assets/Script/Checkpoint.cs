@@ -1,16 +1,18 @@
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class Checkpoint : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void OnTriggerEnter(Collider other)
     {
-        
-    }
+        if (other.CompareTag("Player"))
+        {
+            PlayerMovement player = other.GetComponent<PlayerMovement>();
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+            if (player != null)
+            {
+                player.respawnPoint = other.transform.position;
+                Debug.Log("Checkpoint Saved!");
+            }
+        }
     }
 }

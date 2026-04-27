@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
+    public Vector3 respawnPoint;
 
     [Header("Movement")]
     public float speed = 5f;
@@ -26,17 +27,24 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        respawnPoint = transform.position;
     }
 
     void Update()
     {
-        // เช็คติดพื้น
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+        isGrounded = controller.isGrounded;
 
+        // กันไม่ให้สะสมแรงตอนอยู่พื้น
         if (isGrounded && velocity.y < 0)
-        {
-            velocity.y = -2f;
-        }
+            {
+                velocity.y = -2f; // ค่านี้ช่วยให้ติดพื้นนิ่ง
+            }
+
+        // กระโดด
+        if (Input.GetButtonDown("Jump") && isGrounded)
+            {
+                velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            }
 
         // รับ input
         float x = Input.GetAxis("Horizontal");
@@ -73,5 +81,10 @@ public class PlayerMovement : MonoBehaviour
         // gravity
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
+        
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            transform.position = respawnPoint;
+        }
     }
 }
