@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -60,16 +61,7 @@ public class PlayerMovement : MonoBehaviour
     public void Die()
     {
         Debug.Log("Player Died!");
-
-        Respawn();
-
-        // 🔥 รีเซ็ตศัตรูทั้งหมด
-        EnemyHealth[] enemies = FindObjectsOfType<EnemyHealth>();
-
-        foreach (EnemyHealth enemy in enemies)
-        {
-            enemy.Respawn();
-        }
+        SceneManager.LoadScene("GameOver");
     }
 
     // 🔁 วาร์ปกลับ
