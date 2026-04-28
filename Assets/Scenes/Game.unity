@@ -16390,8 +16390,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   controller: {fileID: 0}
-  speed: 5
-  sprintSpeed: 9
+  speed: 3
+  sprintSpeed: 6
   jumpHeight: 1.5
   gravity: -9.8
 --- !u!1 &690853519
