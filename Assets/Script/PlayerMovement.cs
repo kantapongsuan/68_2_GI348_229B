@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
-    public Vector3 respawnPoint;
 
     [Header("Movement")]
     public float speed = 5f;
@@ -20,18 +19,27 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        respawnPoint = transform.position;
+
+        // 🔒 ล็อคเมาส์ตอนเข้าเกม
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
+        // 🔁 วาร์ปไป Checkpoint ถ้ามี
+        if (GameManager.instance != null && GameManager.instance.checkpointPosition != Vector3.zero)
+        {
+            controller.enabled = false;
+            transform.position = GameManager.instance.checkpointPosition;
+            controller.enabled = true;
+        }
     }
 
     void Update()
     {
         isGrounded = controller.isGrounded;
 
-        // กันตัวลอย
         if (isGrounded && velocity.y < 0)
             velocity.y = -2f;
 
-        // Movement
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
@@ -50,27 +58,21 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
 
-        // รีเอง
+        // กด R = ตาย (เอาไว้เทส)
         if (Input.GetKeyDown(KeyCode.R))
         {
             Die();
         }
     }
 
-    // 💀 ตอนตาย
     public void Die()
     {
         Debug.Log("Player Died!");
+
+        // 🔓 ปลดล็อคเมาส์
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
         SceneManager.LoadScene("GameOver");
-    }
-
-    // 🔁 วาร์ปกลับ
-    void Respawn()
-    {
-        velocity = Vector3.zero;
-
-        controller.enabled = false;
-        transform.position = respawnPoint;
-        controller.enabled = true;
     }
 }

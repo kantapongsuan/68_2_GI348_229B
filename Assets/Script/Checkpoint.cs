@@ -6,13 +6,8 @@ public class Checkpoint : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            PlayerMovement player = other.GetComponent<PlayerMovement>();
-
-            if (player != null)
-            {
-                player.respawnPoint = other.transform.position;
-                Debug.Log("Checkpoint Saved!");
-            }
+            GameManager.instance.checkpointPosition = other.transform.position;
+            Debug.Log("Checkpoint Saved!");
         }
     }
 }

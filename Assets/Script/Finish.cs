@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEditor;
+using UnityEngine.SceneManagement;
 
 public class Finish : MonoBehaviour
 {
@@ -7,13 +7,7 @@ public class Finish : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("You Win!");
-
-#if UNITY_EDITOR
-            EditorApplication.isPlaying = false;
-#else
-            Application.Quit();
-#endif
+            SceneManager.LoadScene("Win");
         }
     }
 }
