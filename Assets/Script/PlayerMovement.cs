@@ -5,6 +5,14 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
 
+    [Header("Sound")]
+    public AudioClip gunClip;
+    public AudioSource footstepSound;
+
+    [Header("Gun")]
+    public float fireRate = 2f;
+    float nextFireTime = 0f;
+
     [Header("Movement")]
     public float speed = 5f;
     public float sprintSpeed = 9f;
@@ -20,16 +28,14 @@ public class PlayerMovement : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
 
-        // 🔒 ล็อคเมาส์ตอนเข้าเกม
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        // 🔁 วาร์ปไป Checkpoint ถ้ามี
-        if (GameManager.instance != null && GameManager.instance.checkpointPosition != Vector3.zero)
+        // 👣 ตั้งค่าเสียงเดิน
+        if (footstepSound != null)
         {
-            controller.enabled = false;
-            transform.position = GameManager.instance.checkpointPosition;
-            controller.enabled = true;
+            footstepSound.loop = true;     // 🔁 ลูป
+            footstepSound.playOnAwake = false;
         }
     }
 
@@ -58,18 +64,57 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
 
-        // กด R = ตาย (เอาไว้เทส)
+        // 🔫 ยิง
+        if (Input.GetButtonDown("Fire1") && Time.time >= nextFireTime)
+        {
+            Shoot();
+            nextFireTime = Time.time + 1f / fireRate;
+        }
+
+        // 👣 เสียงเดินแบบลูป
+        HandleFootsteps(x, z);
+
         if (Input.GetKeyDown(KeyCode.R))
         {
             Die();
         }
     }
 
+    void Shoot()
+    {
+        if (gunClip != null)
+        {
+            AudioSource.PlayClipAtPoint(gunClip, transform.position);
+        }
+    }
+
+    void HandleFootsteps(float x, float z)
+    {
+        bool isMoving = Mathf.Abs(x) > 0.1f || Mathf.Abs(z) > 0.1f;
+
+        if (isGrounded && isMoving)
+        {
+            // ถ้ายังไม่เล่น → เริ่มเล่น
+            if (!footstepSound.isPlaying)
+            {
+                footstepSound.Play();
+            }
+
+            // ปรับความเร็วเสียงตอนวิ่ง
+            footstepSound.pitch = Input.GetKey(KeyCode.LeftShift) ? 1.5f : 1f;
+        }
+        else
+        {
+            // หยุดเดิน → หยุดเสียงทันที
+            if (footstepSound.isPlaying)
+            {
+                footstepSound.Stop();
+            }
+        }
+    }
+
     public void Die()
     {
-        Debug.Log("Player Died!");
-
-        // 🔓 ปลดล็อคเมาส์
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
 

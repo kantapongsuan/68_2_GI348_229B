@@ -5,6 +5,7 @@ public class EnemyShoot : MonoBehaviour
     public Transform player;
     public GameObject bulletPrefab;
     public Transform firePoint;
+    public AudioSource gunSound;
 
     public float range = 15f;
     public float fireRate = 1f;
@@ -13,6 +14,10 @@ public class EnemyShoot : MonoBehaviour
 
     void Update()
     {
+        // ❗ กัน error ถ้ายังไม่ได้ลากค่าใน Inspector
+        if (player == null || firePoint == null || bulletPrefab == null)
+            return;
+
         float distance = Vector3.Distance(transform.position, player.position);
 
         if (distance <= range && CanSeePlayer())
@@ -25,7 +30,7 @@ public class EnemyShoot : MonoBehaviour
     void RotateToPlayer()
     {
         Vector3 dir = player.position - transform.position;
-        dir.y = 0;
+        dir.y = 0f;
 
         if (dir != Vector3.zero)
         {
@@ -45,10 +50,20 @@ public class EnemyShoot : MonoBehaviour
 
     void Shoot()
     {
+        // 🔊 กัน null (ถ้าไม่ได้ใส่เสียงจะไม่ error)
+        if (gunSound != null)
+            gunSound.Play();
+
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
 
         Vector3 dir = player.position - firePoint.position;
-        bullet.GetComponent<Bullet>().SetDirection(dir);
+
+        // ❗ กัน error ถ้า Bullet script ไม่มี
+        Bullet b = bullet.GetComponent<Bullet>();
+        if (b != null)
+        {
+            b.SetDirection(dir);
+        }
     }
 
     bool CanSeePlayer()
@@ -58,7 +73,7 @@ public class EnemyShoot : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(firePoint.position, dir, out hit, range))
         {
-            if (hit.transform == player)
+            if (hit.transform.CompareTag("Player"))
                 return true;
         }
 

@@ -254,6 +254,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 908388464}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (13)
@@ -302,6 +306,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 674722190}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -320,6 +328,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 908388464}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (14)
@@ -368,6 +380,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 124075421}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -881,6 +897,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119794172}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (5)
@@ -929,6 +949,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 493246435}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1837,6 +1861,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664767386}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (5)
@@ -1885,6 +1913,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1860609185}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2928,6 +2960,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664767386}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (3)
@@ -2976,6 +3012,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 276749489}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3276,6 +3316,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1913063014644895188, guid: 84e8ceaef94b9de49832a4c18a3b3995, type: 3}
   m_PrefabInstance: {fileID: 123168810}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &124075421 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 19829029}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &124269526
 GameObject:
@@ -4068,6 +4113,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 908388464}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter
@@ -4116,6 +4165,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 248642548}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5780,6 +5833,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 908388464}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (2)
@@ -5828,6 +5885,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1371773043}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6219,6 +6280,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119794172}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (2)
@@ -6267,6 +6332,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 459158541}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6396,6 +6465,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 908388464}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (7)
@@ -6406,7 +6479,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.3088799
+      value: -2.07
       objectReference: {fileID: 0}
     - target: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6444,6 +6517,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1669694200}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6489,6 +6566,11 @@ Transform:
   - {fileID: 2125151524}
   m_Father: {fileID: 92216352}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!82 &248642548 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 153870961}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &256531577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6497,6 +6579,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119794172}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (4)
@@ -6545,6 +6631,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1291770610}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7505,6 +7595,11 @@ MeshFilter:
 --- !u!4 &276749483 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 111294483}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &276749489 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 111294483}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &280672348
@@ -10540,6 +10635,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 908388464}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (5)
@@ -10588,6 +10687,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 395577525}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10596,6 +10699,11 @@ PrefabInstance:
 --- !u!4 &395577519 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 395577518}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &395577525 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 395577518}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &395931546
@@ -11504,6 +11612,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664767386}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (11)
@@ -11552,6 +11664,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1248714943}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11676,6 +11792,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119794172}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (1)
@@ -11724,6 +11844,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 2001586274}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11991,6 +12115,11 @@ Transform:
   - {fileID: 531725832}
   m_Father: {fileID: 216455053}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!82 &459158541 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 227319919}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &459322481 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
@@ -12893,6 +13022,11 @@ MeshFilter:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 1895423031}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &493246435 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 42175900}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &494506838
 GameObject:
@@ -14005,6 +14139,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664767386}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (8)
@@ -14053,6 +14191,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1970136944}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14399,6 +14541,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664767386}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (6)
@@ -14447,6 +14593,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1510098268}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15000,6 +15150,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 603253953}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!82 &603363579 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1895423031}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &607585764
 GameObject:
   m_ObjectHideFlags: 0
@@ -15819,6 +15974,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119794172}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (8)
@@ -15867,6 +16026,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 981479473}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15920,6 +16083,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 908388464}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (10)
@@ -15930,7 +16097,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.3748798
+      value: -2.167
       objectReference: {fileID: 0}
     - target: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15968,6 +16135,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 661707724}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15976,6 +16147,11 @@ PrefabInstance:
 --- !u!4 &661707718 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 661707717}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &661707724 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 661707717}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &665770720
@@ -16235,6 +16411,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 670514547}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!82 &674722190 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 17249402}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &679242624
 GameObject:
   m_ObjectHideFlags: 0
@@ -16249,6 +16430,7 @@ GameObject:
   - component: {fileID: 679242626}
   - component: {fileID: 679242630}
   - component: {fileID: 679242631}
+  - component: {fileID: 679242632}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -16350,6 +16532,7 @@ Transform:
   m_Children:
   - {fileID: 330585546}
   - {fileID: 607585765}
+  - {fileID: 1279191423}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &679242630
@@ -16390,10 +16573,110 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   controller: {fileID: 0}
+  gunClip: {fileID: 8300000, guid: 424ae840af526ed46912a8e3779dd529, type: 3}
+  footstepSound: {fileID: 679242632}
+  fireRate: 2
   speed: 3
   sprintSpeed: 6
   jumpHeight: 1.5
   gravity: -9.8
+--- !u!82 &679242632
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679242624}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: da0f250e2d0904544a210411fe9c93a4, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &690853519
 GameObject:
   m_ObjectHideFlags: 0
@@ -17034,6 +17317,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664767386}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (14)
@@ -17082,6 +17369,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1231493417}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17574,6 +17865,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 908388464}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (6)
@@ -17622,6 +17917,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 802088648}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17630,6 +17929,11 @@ PrefabInstance:
 --- !u!4 &802088642 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 802088641}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &802088648 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 802088641}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &811268745
@@ -21178,6 +21482,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664767386}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (7)
@@ -21226,6 +21534,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1872892651}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21350,6 +21662,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1579653944}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (4)
@@ -21398,6 +21714,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 962212126}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21406,6 +21726,11 @@ PrefabInstance:
 --- !u!4 &962212120 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 962212119}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &962212126 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 962212119}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &968261136
@@ -21562,6 +21887,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1579653944}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (2)
@@ -21610,6 +21939,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 976794537}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21618,6 +21951,11 @@ PrefabInstance:
 --- !u!4 &976794531 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 976794530}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &976794537 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 976794530}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &977455046
@@ -21731,6 +22069,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!82 &981479473 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 655979304}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &984852465
 GameObject:
   m_ObjectHideFlags: 0
@@ -21842,6 +22185,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984852465}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!82 &989372346 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1219081161}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &991457266 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
@@ -21850,6 +22198,11 @@ Transform:
 --- !u!4 &991553554 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1578261644}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &991553560 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 1578261644}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &994794168
@@ -22859,6 +23212,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664767386}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (9)
@@ -22907,6 +23264,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1062969989}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23623,6 +23984,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1579653944}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (3)
@@ -23671,6 +24036,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 2042615901}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23684,6 +24053,11 @@ Transform:
 --- !u!4 &1062969983 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1033359884}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1062969989 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 1033359884}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1067611496
@@ -25105,6 +25479,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 908388464}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (8)
@@ -25153,6 +25531,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1108155455}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25161,6 +25543,11 @@ PrefabInstance:
 --- !u!4 &1108155449 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1108155448}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1108155455 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 1108155448}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1111338141
@@ -25371,6 +25758,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 908388464}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (15)
@@ -25419,6 +25810,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1122216554}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25427,6 +25822,11 @@ PrefabInstance:
 --- !u!4 &1122216548 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1122216547}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1122216554 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 1122216547}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1129020466
@@ -26951,6 +27351,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664767386}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (4)
@@ -26999,6 +27403,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 989372346}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27226,6 +27634,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1224823270}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!82 &1231493417 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 752676803}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1237467452
 GameObject:
   m_ObjectHideFlags: 0
@@ -27456,6 +27869,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119794172}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (6)
@@ -27504,6 +27921,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1978050623}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27730,6 +28151,11 @@ RectTransform:
 --- !u!4 &1248714937 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 434026989}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1248714943 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 434026989}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1250120652
@@ -28411,6 +28837,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 908388464}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (12)
@@ -28421,7 +28851,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.6238799
+      value: -0.516
       objectReference: {fileID: 0}
     - target: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_LocalPosition.z
@@ -28459,6 +28889,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1442241119}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28649,6 +29083,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1276331373}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1279191422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1279191423}
+  m_Layer: 3
+  m_Name: Firepoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1279191423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279191422}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0.51}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 679242629}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1281590585
 GameObject:
   m_ObjectHideFlags: 0
@@ -28945,6 +29410,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289448620}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!82 &1291770610 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 256531577}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1294026070
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28953,6 +29423,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664767386}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (13)
@@ -29001,6 +29475,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1823166012}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29236,6 +29714,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1579653944}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter
@@ -29284,6 +29766,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1316495565}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29292,6 +29778,11 @@ PrefabInstance:
 --- !u!4 &1316495559 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1316495558}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1316495565 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 1316495558}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1317049033
@@ -29524,6 +30015,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 908388464}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (4)
@@ -29572,6 +30067,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1328811130}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29580,6 +30079,11 @@ PrefabInstance:
 --- !u!4 &1328811124 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1328811123}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1328811130 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 1328811123}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1335728816
@@ -30172,6 +30676,11 @@ Transform:
   - {fileID: 1397918826}
   m_Father: {fileID: 174132693}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!82 &1371773043 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 210652788}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1372204134
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30661,6 +31170,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1579653944}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (1)
@@ -30709,6 +31222,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1384312706}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30717,6 +31234,11 @@ PrefabInstance:
 --- !u!4 &1384312700 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1384312699}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1384312706 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 1384312699}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1384430641
@@ -31243,6 +31765,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403198663}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!82 &1411187027 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1817369118}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1411459371
 GameObject:
   m_ObjectHideFlags: 0
@@ -31550,6 +32077,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 908388464}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (9)
@@ -31598,6 +32129,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1422437084}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31606,6 +32141,11 @@ PrefabInstance:
 --- !u!4 &1422437078 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1422437077}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1422437084 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 1422437077}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1427493564
@@ -31678,6 +32218,11 @@ Transform:
   - {fileID: 367003548}
   m_Father: {fileID: 1919190972}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1442241119 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1265350427}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1446463498
 GameObject:
   m_ObjectHideFlags: 0
@@ -32360,6 +32905,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494546209}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!82 &1510098268 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 578651912}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1511537796
 GameObject:
   m_ObjectHideFlags: 0
@@ -34191,6 +34741,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664767386}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (12)
@@ -34239,6 +34793,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 991553560}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34295,6 +34853,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 908388464}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (1)
@@ -34343,6 +34905,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1890417983}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35041,6 +35607,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664767386}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (2)
@@ -35089,6 +35659,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1696845606}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35396,6 +35970,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664767386}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (15)
@@ -35444,6 +36022,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1983082953}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36060,6 +36642,11 @@ Transform:
   - {fileID: 260954361}
   m_Father: {fileID: 417628562}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1669694200 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 247573039}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1670967658
 GameObject:
   m_ObjectHideFlags: 0
@@ -36689,6 +37276,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1688895131}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!82 &1696845606 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1615417812}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1697847150
 GameObject:
   m_ObjectHideFlags: 0
@@ -38087,6 +38679,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664767386}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (1)
@@ -38135,6 +38731,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1938691976}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39020,6 +39620,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664767386}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter
@@ -39068,6 +39672,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1411187027}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39192,6 +39800,11 @@ MeshFilter:
 --- !u!4 &1823166006 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1294026070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1823166012 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 1294026070}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1825905688
@@ -39717,6 +40330,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855984148}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!82 &1860609185 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 80850475}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1871914452
 GameObject:
   m_ObjectHideFlags: 0
@@ -39849,6 +40467,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 960405841}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1872892651 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 960405841}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1883840375
 GameObject:
   m_ObjectHideFlags: 0
@@ -39960,6 +40583,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1883840375}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!82 &1890417983 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1581611493}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1891652906
 GameObject:
   m_ObjectHideFlags: 0
@@ -40130,6 +40758,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1664767386}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (10)
@@ -40178,6 +40810,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 603363579}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40435,6 +41071,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119794172}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (7)
@@ -40483,6 +41123,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1912026583}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40491,6 +41135,11 @@ PrefabInstance:
 --- !u!4 &1912026577 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1912026576}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1912026583 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 1912026576}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1912927928
@@ -40847,6 +41496,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119794172}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter
@@ -40895,6 +41548,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1925670397}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40903,6 +41560,11 @@ PrefabInstance:
 --- !u!4 &1925670391 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1925670390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1925670397 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 1925670390}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1931174009
@@ -41127,6 +41789,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1936370798}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!82 &1938691976 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1767901952}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1940067038
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41320,6 +41987,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 908388464}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (11)
@@ -41330,7 +42001,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.6238799
+      value: -0.516
       objectReference: {fileID: 0}
     - target: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_LocalPosition.z
@@ -41368,6 +42039,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 1945632495}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -41376,6 +42051,11 @@ PrefabInstance:
 --- !u!4 &1945632489 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1945632488}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1945632495 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 1945632488}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1969263114
@@ -41492,6 +42172,11 @@ MeshFilter:
 --- !u!4 &1970136938 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 552734510}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1970136944 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 552734510}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1971169549
@@ -41716,6 +42401,16 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976400472}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!82 &1978050623 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1242720443}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1983082953 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1641798389}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1985745227
 GameObject:
   m_ObjectHideFlags: 0
@@ -42213,6 +42908,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1913063014644895188, guid: 84e8ceaef94b9de49832a4c18a3b3995, type: 3}
   m_PrefabInstance: {fileID: 1999167694}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &2001586274 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 438317317}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2011579572
 GameObject:
   m_ObjectHideFlags: 0
@@ -42662,6 +43362,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2019029721}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!82 &2024320737 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 8241671942046181619}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2025566643
 GameObject:
   m_ObjectHideFlags: 0
@@ -42919,6 +43624,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2038107203}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!82 &2042615901 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 1060171448}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2044598244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42927,6 +43637,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1119794172}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (3)
@@ -42975,6 +43689,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 2044598251}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -42983,6 +43701,11 @@ PrefabInstance:
 --- !u!4 &2044598245 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 2044598244}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &2044598251 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 2044598244}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2045851960
@@ -43250,6 +43973,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 908388464}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter (3)
@@ -43298,6 +44025,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 2059381892}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -43306,6 +44037,11 @@ PrefabInstance:
 --- !u!4 &2059381886 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5143169763423776073, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+  m_PrefabInstance: {fileID: 2059381885}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &2059381892 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
   m_PrefabInstance: {fileID: 2059381885}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2063389518
@@ -44882,6 +45618,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1579653944}
     m_Modifications:
+    - target: {fileID: 1744897094591532380, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5134968689922654295, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
       propertyPath: m_Name
       value: Enemy shooter
@@ -44930,6 +45670,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 679242629}
+    - target: {fileID: 8432763395900955007, guid: 43e8dd3e32bf67d4f8d27fe4ad7e8308, type: 3}
+      propertyPath: gunSound
+      value: 
+      objectReference: {fileID: 2024320737}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
