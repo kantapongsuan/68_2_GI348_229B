@@ -560,7 +560,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1202548642}
         m_TargetAssemblyTypeName: WinUI, Assembly-CSharp
-        m_MethodName: Restart
+        m_MethodName: PlayAgain
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

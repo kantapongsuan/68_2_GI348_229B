@@ -1115,7 +1115,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 141407004}
         m_TargetAssemblyTypeName: GameOverUI, Assembly-CSharp
-        m_MethodName: Restart
+        m_MethodName: Retry
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -4,14 +4,8 @@ using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
-
-    [Header("Sound")]
-    public AudioClip gunClip;
+    public AudioSource gunSound;
     public AudioSource footstepSound;
-
-    [Header("Gun")]
-    public float fireRate = 2f;
-    float nextFireTime = 0f;
 
     [Header("Movement")]
     public float speed = 5f;
@@ -28,14 +22,16 @@ public class PlayerMovement : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
 
+        // 🔒 ล็อคเมาส์
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        // 👣 ตั้งค่าเสียงเดิน
-        if (footstepSound != null)
+        // 🔥 ไป checkpoint ถ้ามี
+        if (GameManager.instance != null && GameManager.instance.checkpointPosition != Vector3.zero)
         {
-            footstepSound.loop = true;     // 🔁 ลูป
-            footstepSound.playOnAwake = false;
+            controller.enabled = false;
+            transform.position = GameManager.instance.checkpointPosition;
+            controller.enabled = true;
         }
     }
 
@@ -54,6 +50,18 @@ public class PlayerMovement : MonoBehaviour
         Vector3 move = transform.right * x + transform.forward * z;
         controller.Move(move * currentSpeed * Time.deltaTime);
 
+        // 🔥 เสียงเดิน (ไม่เบิ้น)
+        if (move.magnitude > 0.1f && isGrounded)
+        {
+            if (!footstepSound.isPlaying)
+                footstepSound.Play();
+        }
+        else
+        {
+            if (footstepSound.isPlaying)
+                footstepSound.Stop();
+        }
+
         // Jump
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
@@ -64,57 +72,25 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
 
-        // 🔫 ยิง
-        if (Input.GetButtonDown("Fire1") && Time.time >= nextFireTime)
+        // 🔫 ยิง (กันเสียงซ้อน)
+        if (Input.GetMouseButtonDown(0))
         {
-            Shoot();
-            nextFireTime = Time.time + 1f / fireRate;
+            if (!gunSound.isPlaying)
+                gunSound.Play();
         }
 
-        // 👣 เสียงเดินแบบลูป
-        HandleFootsteps(x, z);
-
+        // 🔥 ปุ่มเทสตาย
         if (Input.GetKeyDown(KeyCode.R))
         {
             Die();
         }
     }
 
-    void Shoot()
-    {
-        if (gunClip != null)
-        {
-            AudioSource.PlayClipAtPoint(gunClip, transform.position);
-        }
-    }
-
-    void HandleFootsteps(float x, float z)
-    {
-        bool isMoving = Mathf.Abs(x) > 0.1f || Mathf.Abs(z) > 0.1f;
-
-        if (isGrounded && isMoving)
-        {
-            // ถ้ายังไม่เล่น → เริ่มเล่น
-            if (!footstepSound.isPlaying)
-            {
-                footstepSound.Play();
-            }
-
-            // ปรับความเร็วเสียงตอนวิ่ง
-            footstepSound.pitch = Input.GetKey(KeyCode.LeftShift) ? 1.5f : 1f;
-        }
-        else
-        {
-            // หยุดเดิน → หยุดเสียงทันที
-            if (footstepSound.isPlaying)
-            {
-                footstepSound.Stop();
-            }
-        }
-    }
-
+    // 💀 ตาย
     public void Die()
     {
+        Debug.Log("Player Died!");
+
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
 

@@ -5,9 +5,12 @@ public class TitleMenu : MonoBehaviour
 {
     public void PlayGame()
     {
+        if (GameManager.instance != null)
+        {
+            GameManager.instance.ResetCheckpoint(); // 🔥 ล้างตอนเริ่มใหม่เท่านั้น
+        }
+
         SceneManager.LoadScene("Game");
-        Debug.Log("Clicked Play!");
-    SceneManager.LoadScene("Game");
     }
 
     public void BackToMain()

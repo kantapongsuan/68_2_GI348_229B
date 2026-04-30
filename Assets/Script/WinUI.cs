@@ -10,8 +10,13 @@ public class WinUI : MonoBehaviour
         Cursor.visible = true;
     }
 
-    public void Restart()
+    public void PlayAgain()
     {
+        if (GameManager.instance != null)
+        {
+            GameManager.instance.ResetCheckpoint();
+        }
+
         SceneManager.LoadScene("Game");
     }
 

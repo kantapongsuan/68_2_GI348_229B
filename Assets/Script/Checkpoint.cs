@@ -6,7 +6,7 @@ public class Checkpoint : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            GameManager.instance.checkpointPosition = other.transform.position;
+            GameManager.instance.checkpointPosition = transform.position;
             Debug.Log("Checkpoint Saved!");
         }
     }
